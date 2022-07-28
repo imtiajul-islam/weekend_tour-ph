@@ -1,0 +1,14 @@
+/* slider */
+.slider{
+    max-height: calc(100vh - 5.5em);
+}
+.carousel-item {
+    max-height: calc(100vh - 5.5em);
+}
+.carousel-item img{
+    max-height: calc(100vh - 5.5em);
+    width: 100%;
+}
+.car-content{
+    background: rgba(0, 0, 0, 0.65);
+}
