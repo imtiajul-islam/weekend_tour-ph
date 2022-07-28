@@ -1,235 +1,291 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weekend Tour</title>
-    <!-- Bootstrap start -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <!-- Bootstrap end -->
-    <!-- custom css start -->
-    <link rel="stylesheet" href="style.css">
-    <!-- custom css end -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weekend Tour</title>
+  <!-- Bootstrap start -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <!-- Bootstrap end -->
+  <!-- font awsome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- custom css start -->
+  <link rel="stylesheet" href="style.css">
+  <!-- custom css end -->
 </head>
+
 <body>
-    <section class="container">
-        <!-- =====================  Header Start ====================== -->
-        <header>
-            <nav style="height: 4.5em" class="navbar navbar-expand-lg bg-light">
-                <div class="container-fluid bg-light" style="z-index: 1;">
-                  <a class="navbar-brand" href="#">Weekend Tour</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Upcoming Events</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Recent Events</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Gallary</a>
-                      </li>
-                    </ul>
-                    <form class="d-flex" role="search">
-                      <button class="btn btn-outline-warning text-black" type="submit">Register</button>
-                    </form>
+  <section class="container">
+    <!-- =====================  Header Start ====================== -->
+    <header>
+      <nav style="height: 4.5em" class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid bg-light" style="z-index: 1;">
+          <a class="navbar-brand" href="#">Weekend Tour</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Upcoming Events</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Recent Events</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Gallary</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <button class="btn btn-outline-warning text-black" type="submit">Register</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- slider -->
+      <div class="slider">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active position-relative">
+              <img src="images/cover/cover-1.jpg" class="d-block w-100" alt="...">
+              <div
+                class="car-content position-absolute top-0 end-0 w-100 h-100 d-flex align-items-center justify-content-center">
+                <div class="w-75 text-white text-center">
+                  <h3>Not all classrooms have four walls</h3>
+                  <p>Stay tuned, to explore the world</p>
+                  <a class="btn btn-warning" href=""> Contact us</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/cover/cover-2.jpg" class="d-block w-100" alt="...">
+              <div
+                class="car-content position-absolute top-0 end-0 w-100 h-100 d-flex align-items-center justify-content-center">
+                <div class="w-75 text-white text-center">
+                  <h3>Iraboti Eco Ressort & Research Center</h3>
+                  <p>See the Sundarban, feel you lost in it!</p>
+                  <a class="btn btn-warning" href=""> Contact us</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/cover/cover-3.jpg" class="d-block w-100" alt="...">
+              <div
+                class="car-content position-absolute top-0 end-0 w-100 h-100 d-flex align-items-center justify-content-center">
+                <div class="w-75 text-white text-center">
+                  <h3>Not all classrooms have four walls</h3>
+                  <p>Stay tuned, to explore the world</p>
+                  <a class="btn btn-warning" href=""> Contact us</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </header>
+    <!-- =====================  Header End ====================== -->
+    <!-- =====================  Start main ====================== -->
+    <main>
+      <section class="packages pt-2 pb-2 mt-5">
+        <div class="row text-center">
+          <div class="col-12">
+            <h3>Our Popular Packages</h3>
+            <p>Travelers like these packages most</p>
+          </div>
+        </div>
+        <div class="p-content row">
+          <div class="col-lg-6">
+            <!-- card -->
+            <div class="card mb-3">
+              <div class="row g-0">
+                <div class="col-md-4 text-center">
+                  <img class="img-fluid" src="images/course/saintjpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Saint martin on a troller</h5>
+                    <p class="card-text">This is the most adventurous journey over a troller to Saint Martin island.</p>
+                    <p class="card-text"><small class="text-muted">$53</small></p>
                   </div>
                 </div>
-            </nav>
-            <!-- slider -->
-            <div class="slider">
-              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active position-relative">
-                    <img src="images/cover/cover-1.jpg" class="d-block w-100" alt="...">
-                    <div class="car-content position-absolute top-0 end-0 w-100 h-100 d-flex align-items-center justify-content-center">
-                      <div class="w-75 text-white text-center">
-                        <h3>Not all classrooms have four walls</h3>
-                        <p>Stay tuned, to explore the world</p>
-                        <a class="btn btn-warning" href=""> Contact us</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="images/cover/cover-2.jpg" class="d-block w-100" alt="...">
-                    <div class="car-content position-absolute top-0 end-0 w-100 h-100 d-flex align-items-center justify-content-center">
-                      <div class="w-75 text-white text-center">
-                        <h3>Iraboti Eco Ressort & Research Center</h3>
-                        <p>See the Sundarban, feel you lost in it!</p>
-                        <a class="btn btn-warning" href=""> Contact us</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="images/cover/cover-3.jpg" class="d-block w-100" alt="...">
-                    <div class="car-content position-absolute top-0 end-0 w-100 h-100 d-flex align-items-center justify-content-center">
-                      <div class="w-75 text-white text-center">
-                        <h3>Not all classrooms have four walls</h3>
-                        <p>Stay tuned, to explore the world</p>
-                        <a class="btn btn-warning" href=""> Contact us</a>
-                      </div>
-                    </div>
+              </div>
+            </div>
+            <!-- card -->
+          </div>
+          <div class="col-lg-6">
+            <!-- card -->
+            <div class="card mb-3">
+              <div class="row g-0">
+                <div class="col-md-4 text-center">
+                  <img class="img-fluid" src="images/course/saintjpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Saint martin on a troller</h5>
+                    <p class="card-text">This is the most adventurous journey over a troller to Saint Martin island.</p>
+                    <p class="card-text"><small class="text-muted">$53</small></p>
                   </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
               </div>
             </div>
-        </header>
-        <!-- =====================  Header End ====================== -->       
-        <!-- =====================  Start main ====================== --> 
-        <main>
-          <section class="packages pt-2 pb-2 mt-5">
-            <div class="row text-center">
-              <div class="col-12">
-                <h3>Our Popular Packages</h3>
-                <p>Travelers like these packages most</p>
-              </div>
-            </div>
-            <div class="p-content row">
-              <div class="col-lg-6">
-                <!-- card -->
-                <div class="card mb-3">
-                  <div class="row g-0">
-                    <div class="col-md-4 text-center">
-                      <img class="img-fluid" src="images/course/saintjpg" class="img-fluid rounded-start" alt="...">
-                    </div>
-                    <div class="col-md-8">
-                      <div class="card-body">
-                        <h5 class="card-title">Saint martin on a troller</h5>
-                        <p class="card-text">This is the most adventurous journey over a troller to Saint Martin island.</p>
-                        <p class="card-text"><small class="text-muted">$53</small></p>
-                      </div>
-                    </div>
+            <!-- card -->
+          </div>
+        </div>
+        <!-- row two  -->
+        <div class="p-content row">
+          <div class="col-lg-6">
+            <!-- card -->
+            <div class="card mb-3">
+              <div class="row g-0">
+                <div class="col-md-4 text-center">
+                  <img class="img-fluid" src="images/course/saintjpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Saint martin on a troller</h5>
+                    <p class="card-text">This is the most adventurous journey over a troller to Saint Martin island.</p>
+                    <p class="card-text"><small class="text-muted">$53</small></p>
                   </div>
                 </div>
-                <!-- card -->
-              </div>
-              <div class="col-lg-6">
-                    <!-- card -->
-                    <div class="card mb-3">
-                      <div class="row g-0">
-                        <div class="col-md-4 text-center">
-                          <img class="img-fluid" src="images/course/saintjpg" class="img-fluid rounded-start" alt="...">
-                        </div>
-                        <div class="col-md-8">
-                          <div class="card-body">
-                            <h5 class="card-title">Saint martin on a troller</h5>
-                            <p class="card-text">This is the most adventurous journey over a troller to Saint Martin island.</p>
-                            <p class="card-text"><small class="text-muted">$53</small></p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- card -->
               </div>
             </div>
-            <!-- row two  -->
-            <div class="p-content row">
-              <div class="col-lg-6">
-                <!-- card -->
-                <div class="card mb-3">
-                  <div class="row g-0">
-                    <div class="col-md-4 text-center">
-                      <img class="img-fluid" src="images/course/saintjpg" class="img-fluid rounded-start" alt="...">
-                    </div>
-                    <div class="col-md-8">
-                      <div class="card-body">
-                        <h5 class="card-title">Saint martin on a troller</h5>
-                        <p class="card-text">This is the most adventurous journey over a troller to Saint Martin island.</p>
-                        <p class="card-text"><small class="text-muted">$53</small></p>
-                      </div>
-                    </div>
+            <!-- card -->
+          </div>
+          <div class="col-lg-6">
+            <!-- card -->
+            <div class="card mb-3">
+              <div class="row g-0">
+                <div class="col-md-4 text-center">
+                  <img class="img-fluid" src="images/course/saintjpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Saint martin on a troller</h5>
+                    <p class="card-text">This is the most adventurous journey over a troller to Saint Martin island.</p>
+                    <p class="card-text"><small class="text-muted">$53</small></p>
                   </div>
                 </div>
-                <!-- card -->
-              </div>
-              <div class="col-lg-6">
-                    <!-- card -->
-                    <div class="card mb-3">
-                      <div class="row g-0">
-                        <div class="col-md-4 text-center">
-                          <img class="img-fluid" src="images/course/saintjpg" class="img-fluid rounded-start" alt="...">
-                        </div>
-                        <div class="col-md-8">
-                          <div class="card-body">
-                            <h5 class="card-title">Saint martin on a troller</h5>
-                            <p class="card-text">This is the most adventurous journey over a troller to Saint Martin island.</p>
-                            <p class="card-text"><small class="text-muted">$53</small></p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- card -->
               </div>
             </div>
-            <!-- row three -->
-            <div class="p-content row">
-              <div class="col-lg-6">
-                <!-- card -->
-                <div class="card mb-3">
-                  <div class="row g-0">
-                    <div class="col-md-4 text-center">
-                      <img class="img-fluid" src="images/course/saintjpg" class="img-fluid rounded-start" alt="...">
-                    </div>
-                    <div class="col-md-8">
-                      <div class="card-body">
-                        <h5 class="card-title">Saint martin on a troller</h5>
-                        <p class="card-text">This is the most adventurous journey over a troller to Saint Martin island.</p>
-                        <p class="card-text"><small class="text-muted">$53</small></p>
-                      </div>
-                    </div>
+            <!-- card -->
+          </div>
+        </div>
+        <!-- row three -->
+        <div class="p-content row">
+          <div class="col-lg-6">
+            <!-- card -->
+            <div class="card mb-3">
+              <div class="row g-0">
+                <div class="col-md-4 text-center">
+                  <img class="img-fluid" src="images/course/saintjpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Saint martin on a troller</h5>
+                    <p class="card-text">This is the most adventurous journey over a troller to Saint Martin island.</p>
+                    <p class="card-text"><small class="text-muted">$53</small></p>
                   </div>
                 </div>
-                <!-- card -->
-              </div>
-              <div class="col-lg-6">
-                    <!-- card -->
-                    <div class="card mb-3">
-                      <div class="row g-0">
-                        <div class="col-md-4 text-center">
-                          <img class="img-fluid" src="images/course/saintjpg" class="img-fluid rounded-start" alt="...">
-                        </div>
-                        <div class="col-md-8">
-                          <div class="card-body">
-                            <h5 class="card-title">Saint martin on a troller</h5>
-                            <p class="card-text">This is the most adventurous journey over a troller to Saint Martin island.</p>
-                            <p class="card-text"><small class="text-muted">$53</small></p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- card -->
               </div>
             </div>
-            <div class="row">
-              <div class="col-12 text-center">
-                <a class="btn btn-warning" href="">View All</a>
+            <!-- card -->
+          </div>
+          <div class="col-lg-6">
+            <!-- card -->
+            <div class="card mb-3">
+              <div class="row g-0">
+                <div class="col-md-4 text-center">
+                  <img class="img-fluid" src="images/course/saintjpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Saint martin on a troller</h5>
+                    <p class="card-text">This is the most adventurous journey over a troller to Saint Martin island.</p>
+                    <p class="card-text"><small class="text-muted">$53</small></p>
+                  </div>
+                </div>
               </div>
             </div>
-          </section>
-          <!-- start about -->
-          <section class="about pt-2 pb-2 mt-5">
-            
-          </section>
-        </main>
-        <!-- =====================  Header End ====================== -->    
-    </section>
-    <!-- Bootstrap start -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-    <!-- Bootstrap end -->
+            <!-- card -->
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 text-center">
+            <a class="btn btn-warning" href="">View All</a>
+          </div>
+        </div>
+      </section>
+      <!-- start ready to join -->
+      <section class="about pt-2 pb-2 mt-1">
+        <div class="card bg-warning p-5">
+          <div class="row">
+            <div class="col-lg-6 ">
+              <h3 >Ready to join?</h3>
+              <p>Join us and meet the popular travelers over the world.</p>
+            </div>
+            <div class="col-lg-6 d-flex align-items-center justify-content-lg-end
+            .justify-content-md-center justify-content-sm-center">
+              <!-- Button trigger modal -->
+              <button type="button" class="btn bg-white" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Join us
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <label for="">Weekend Tour</label>
+                <a target="_blank" href="https://www.facebook.com/groups/111464965917726">
+                  <i class="fa-brands fa-facebook text-warning"></i>
+                </a>
+                <br>
+                <label for="">Iraboti Eco Resort & Research Centre</label>
+                <a target="_blank" href="https://www.facebook.com/irabotiecoresort">
+                  <i class="fa-brands fa-facebook text-warning"></i>
+                </a>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- =====================  Header End ====================== -->
+  </section>
+  <!-- Bootstrap start -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+  <!-- Bootstrap end -->
+  <!-- font awsome -->
+  <script src="https://kit.fontawesome.com/89fead93be.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
